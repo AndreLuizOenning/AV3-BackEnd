@@ -19,7 +19,7 @@ public class PlayerStatisticsController {
     @PostMapping
     public ResponseEntity<PlayerStatistics> createStatistics(@RequestBody @Valid PlayerStatisticsDTO dto) {
         PlayerStatistics stats = playerStatisticsService.createPlayerStatistics(dto);
-        return ResponseEntity.status(HttpStatus.CREATED).body(stats);
+        return ResponseEntity.status(HttpStatu  s.CREATED).body(stats);
     }
 
     @GetMapping("/{id}")
