@@ -135,4 +135,3 @@ resposta:{
 URL:/player-stats/{Id}
 Método:DELETE
 desc: Deleta jogadores pelo id
-# AV3-BackEnd
